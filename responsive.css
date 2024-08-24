@@ -1,0 +1,456 @@
+@media only screen and (max-width:630px) {
+    select {
+        width: 14px;
+    }
+
+    .language {
+        width: 30px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+    .sections {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90vw;
+        min-height: 555px;
+        margin: auto;
+        color: white;
+    }
+
+    .sec-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 32px;
+    }
+
+    .sec-asset img {
+        width: 45vw;
+        position: relative;
+        left: 19px;
+    }
+
+    .sec1 video {
+        position: absolute;
+        top: 69px;
+        width: 33vw;
+        z-index: -1;
+        right: 43px;
+    }
+
+    .mob-assets {
+        position: absolute;
+        display: flex;
+        width: 29vw;
+        bottom: 23px;
+        left: 87px;
+        background-color: black;
+        height: 74px;
+        align-items: center;
+        gap: 3px;
+        border: 1px solid rgb(187 175 175 / 69%);
+        padding: 8px 12px;
+        border-radius: 10px;
+    }
+
+    .even-content {
+        position: relative;
+        width: 41vw;
+        left: 39px;
+    }
+
+    .sec3 video {
+        position: absolute;
+        left: 106px;
+        width: 28vw;
+        z-index: -1;
+        top: 26px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    header {
+        height: 780px;
+    }
+
+    .bg {
+        height: 780px;
+    }
+
+    .bg .box {
+        height: 780px;
+    }
+
+    .sections {
+        flex-wrap: wrap;
+    }
+
+    .sec-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: auto;
+        align-items: center;
+        right: 32px;
+        gap: 20px;
+        top: 23px;
+        justify-content: center;
+    }
+
+    .sec-content :nth-child(1) {
+        font-size: 38px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .sec-content :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sec-asset img {
+        width: 71vw;
+        position: relative;
+        left: 19px;
+        top: -44px;
+    }
+
+    .sec1 video {
+        position: absolute;
+        top: 39px;
+        width: 52vw;
+        z-index: -1;
+        right: 55px;
+    }
+
+    .sec2 img {
+        width: 71vw;
+        position: relative;
+        left: 19px;
+        top: -18px;
+    }
+
+    .mob-assets {
+        position: absolute;
+        display: flex;
+        width: 43vw;
+        bottom: 42px;
+        left: 105px;
+        background-color: black;
+        height: 74px;
+        align-items: center;
+        gap: 3px;
+        border: 1px solid rgb(187 175 175 / 69%);
+        padding: 8px 12px;
+        border-radius: 10px;
+    }
+
+    .mob-assets> :nth-child(1) {
+        width: 58px;
+        height: 84px;
+        position: relative;
+        top: 0;
+    }
+
+    .mob-assets> :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        width: 156px;
+        margin-left: 38px;
+    }
+
+    .mob-assets> :nth-child(3) {
+        width: 48px;
+        height: 60px;
+        position: relative;
+        top: 0;
+    }
+
+    .even-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: -78px;
+        width: 100vw;
+        margin-right: 59px;
+    }
+
+    .even-content :nth-child(1) {
+        font-size: 38px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .even-content :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sec3 video {
+        position: absolute;
+        left: 119px;
+        width: 44vw;
+        z-index: -1;
+        top: -14px;
+    }
+
+    .sec4 img {
+        width: 71vw;
+        position: relative;
+        left: 19px;
+        top: 4px;
+    }
+
+    main {
+        width: 100vw;
+        height: 3208px;
+    }
+
+    .call {
+        color: rgb(109, 109, 109);
+        margin: 50px 0px 55px 25px;
+        font-size: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:431px) {
+
+
+    .sections {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .sec-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: auto;
+        align-items: center;
+        right: 1px;
+        width: 66vw;
+        gap: 20px;
+        top: 23px;
+        justify-content: center;
+    }
+
+    .sec-asset img {
+        width: 77vw;
+        position: relative;
+        left: 6px;
+        top: -44px;
+    }
+
+    .sec1 video {
+        position: absolute;
+        top: 6px;
+        width: 56vw;
+        z-index: -1;
+        right: 40px;
+    }
+
+    .sec2 img {
+        width: 92vw;
+        position: relative;
+        left: -6px;
+        top: -12px;
+    }
+
+    .mob-assets {
+        width: 57vw;
+        height: 67px;
+        left: 50px;
+    }
+
+    .mob-assets> :nth-child(1) {
+        width: 58px;
+        height: 72px;
+        position: relative;
+        top: 0;
+    }
+
+    .mob-assets> :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        width: 156px;
+        margin-left: 18px;
+    }
+
+    .mob-assets> :nth-child(3) {
+        width: 48px;
+        height: 38px;
+        position: relative;
+        top: 0;
+    }
+
+    .even-content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-right: 85px;
+        align-items: center;
+        right: 83px;
+        width: 66vw;
+        gap: 20px;
+        top: -5px;
+        justify-content: center;
+    }
+
+    .sec3 video {
+        position: absolute;
+        left: 61px;
+        width: 49vw;
+        z-index: -1;
+        top: -24px;
+    }
+
+    .sec4 img {
+        width: 77vw;
+        position: relative;
+        left: 6px;
+        top: 7px;
+    }
+
+    .faq h2 {
+        font-size: 2.5em;
+    }
+
+    .faqbox {
+        font-size: 20px;
+    }
+
+    main {
+        width: 100vw;
+        height: 3264px;
+    }
+
+    .call {
+        color: rgb(109, 109, 109);
+        margin: 51px 0px 55px 30px;
+        font-size: 25px;
+    }
+
+    .foot a{
+        color: rgb(109, 109, 109);
+        font-size: 16px;
+       
+    }
+
+
+}
+
+@media screen and (max-width:376px) {
+
+    .sec1 video {
+        top: 1px;
+        right: 35px;
+    }
+
+    .mob-assets> :nth-child(2) {
+        margin-left: 1px;
+    }
+
+    .sec3 video {
+        left: 54px;
+    }
+
+    main {
+        width: 100vw;
+        height: 3278px;
+    }
+
+    .call {
+        color: rgb(109, 109, 109);
+        margin: 51px 0px 55px 7px;
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .sec1 video {
+        top: -6px;
+        right: 28px;
+    }
+
+    .mob-assets {
+        width: 59vw;
+        height: 50px;
+        left: 29px;
+    }
+
+    .mob-assets> :nth-child(1) {
+        width: 47px;
+        height: 59px;
+        position: relative;
+        top: 0;
+    }
+
+    .mob-assets> :nth-child(2) {
+        margin-left: -5px;
+    }
+
+    .mob-assets> :nth-child(3) {
+        left: 3px;
+    }
+
+    .sec3 video {
+        left: 47px;
+    }
+
+
+    .call {
+        color: rgb(109, 109, 109);
+        margin: 51px 0px 48px 4px;
+        font-size: 21px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1169px) {
+    .foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 20px;
+        row-gap:8px;
+        margin-top: 20px;
+        column-gap: 40px;
+        font-weight: 200;
+        max-width: 80vw;
+        margin: auto;
+       
+    }
+    
+}
+
+@media screen and (max-width:849px) {
+    .foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 20px;
+        row-gap:8px;
+        margin-top: 20px;
+        column-gap: 40px;
+        font-weight: 200;
+        max-width: 80vw;
+        margin: auto;
+       
+    }
+    
+}
+
+

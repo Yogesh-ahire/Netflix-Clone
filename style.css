@@ -332,7 +332,7 @@ main{
     height: 30px;
     font-size: 28px;
     font-weight: 200;
-    background-color:grey;
+    background-color: #2c2929;
     align-items: center;
     justify-content: space-between;
     padding: 30px 20px;
@@ -344,7 +344,7 @@ main{
 }
 
 .faqbox:hover{
-    background-color: #2c2929;
+    background-color: grey ;
 }
 
 main {
